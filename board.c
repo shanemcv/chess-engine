@@ -53,7 +53,7 @@ void display_board(const ChessBoard *board){
 }
 
 void display_bitboard(Bitboard bitboard) {
-    // Print the bitboard in a board-like format (8x8 grid)
+    // Print the bitboard in a 8x8 grid format
 
     // Loop through each rank (row) from 7 to 0 (top to bottom)
     for (int rank = 7; rank >= 0; rank--) {
